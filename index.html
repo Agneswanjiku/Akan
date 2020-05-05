@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Age Calculator in Akan Names</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" >
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>          
+  <h1>THE AKAN PEOPLE FROM GHANA WITH THEIR NAMING CULTURE</h1>
+  <div class="container">
+    <div class="ou tput">
+      <div class="row">
+        <div class="col-md-4 mx-auto">
+           <img src="https://media.istockphoto.com/vectors/vector-stamp-of-approved-logo-with-ghana-flag-in-the-round-shape-on-vector-id1171263929" width="200" height="160">         
+            <form>
+             <label for="day">Day:</label><br>
+             <input type="text" id="day" name="day" required><br>
+             
+             <label for="day">Month:</label><br>
+             <input type="text" id="month" name="Month" required><br>
+
+             <label for="year">Year:</label><br>
+             <input type="text" id="year" name="year" required><br>
+
+             <input type="radio" id="male" name="gender" value="male" required>
+             <label for="male">Male</label><br>
+             
+             <input type="radio" id="female" name="gender" value="female" required>
+             <label for="female">Female</label><br><br><br>
+             <input type="submit" value="Submit">  
+             <button type="submit" formmethod="post">Submit akan names</button></form>
+             <button type="button" class="btn btn-primary" onclick="findNames()">Submit</button>
+           </div>
+        
+        </div>
+        <div class="dispaly">
+          <h3 id="Akan">
+
+          </h3>
+        </div>
+      </div>
+       >
+    </div>
+  </div>
+  <script src="scripts.js"></script>
+</div>
+</body>
+</html>
