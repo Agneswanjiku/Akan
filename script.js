@@ -36,6 +36,9 @@ function findNames(e){
         document.getElementById('akan').innerHTML = "You were born on " + daysOfTheWeek[d] +  " and your Akan name is: " + maleNames[d] ;
     }
     else if(female.checked == true){
+        alert("You were born on " + daysOfTheWeek[d] +  " and your Akan name is: " + femaleNames[d] );
+        document.getElementById('akan').innerHTML = "You were born on " + daysOfTheWeek[d] +  " and your Akan name is: " + femaleNames[d] ;
+
         //do something
     }
 }
